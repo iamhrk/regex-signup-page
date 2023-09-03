@@ -16,12 +16,12 @@ main {
     align-items: center;
 }
 
-label, input, textarea {
+label, input {
     width: 50%;
     margin-bottom: 20px;
 }
 
-input, textarea { 
+input{ 
     height: 40px;
     border-radius: 10px;
     border : 1px solid #dcdcdc;
