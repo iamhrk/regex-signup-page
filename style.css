@@ -18,21 +18,32 @@ main form{
 
 label, input {
     width: 50%;
-    margin-bottom: 20px;
+    
 }
 
 input{ 
     height: 40px;
     border-radius: 10px;
-    border : 1px solid #dcdcdc;
+    border : 3px solid #dcdcdc;
     padding: 5px;
     margin-bottom: 20px;
 }
 
 .valid{
     outline-color: green;
+    border-color: green;
 }
 
 .invalid {
-   outline-color: red;
+   outline-color: orange;
+   border-color: orange;
+}
+
+label {
+    opacity: 0;
+}
+
+input.invalid + label {
+    opacity: 1;
+    margin-bottom: 20px;
 }

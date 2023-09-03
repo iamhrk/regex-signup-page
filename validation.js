@@ -9,11 +9,10 @@ const patterns = {
 const inputs = document.querySelectorAll('input');
 
 function validate(field, regex) {
-    console.log(regex.test(field.value));
     if(regex.test(field.value)) {
         field.className = 'valid';
     } else {
-        field.className = 'invalid'
+        field.className = 'invalid';
     }
 }
 
