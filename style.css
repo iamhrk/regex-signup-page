@@ -28,3 +28,11 @@ input{
     padding: 5px;
     margin-bottom: 20px;
 }
+
+.valid{
+    outline-color: green;
+}
+
+.invalid {
+   outline-color: red;
+}
