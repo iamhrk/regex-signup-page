@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Signup Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>New User Signup</h1>
+    </header>
+
+    <main>
+        <input type="text" name="username" id="username" placeholder="name">
+        <label for="username">Username must be alphanumeric and must contain 5-12 characters</label>
+        
+        <input type="email" name="email" id="email" placeholder="email">
+        <label for="email">Email must be a valid address. Eg: me@mydomain.com</label>
+        
+        <input type="password" name="password" id="password">
+        <label for="password">Password must be alphanumeric(@._- are allowed) and be 8-20 characters</label>
+
+        <input type="text" name="phone" id="phone" placeholder="Phone number">
+        <label for="phone">Phone number must be a valid Indian number (10 digits)</label>
+
+        <textarea name="profile-slug" id="profile-slug" cols="30" rows="10" placeholder="profile slug"></textarea>
+        <label for="profile-slug">Slug must contain only lowercase letters, numbers and hyphens and must be 8-20 characters</label>
+    </main>
+    
+</body>
+</html>
